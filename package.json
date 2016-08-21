@@ -1,0 +1,19 @@
+{
+  "name": "photography_website",
+  "version": "0.0.0",
+  "description": "Photography Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tgarg93/photography.git"
+  },
+  "author": "Tushar Garg <tushargarg93@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tgarg93/photography/issues"
+  },
+  "homepage": "https://github.com/tgarg93/photography"
+}
