@@ -24,6 +24,10 @@ table {
   text-decoration: none!important;
 }
 
+a:hover {
+ box-shadow: none;
+}
+
 tr, td, img {
 	margin: 20px;
   padding: 0px; 
@@ -49,6 +53,7 @@ tr, td, img {
 
 li {
     float: left;
+    box-shadow: none;
 }
 
 .links {
