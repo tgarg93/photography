@@ -5,6 +5,8 @@
     <link href="stylesheets/style.css" rel="stylesheet">
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="dist/simpleLightbox.min.css">
+    <script src="dist/simpleLightbox.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
     <style> .glyphicon-thumbs-up { cursor:pointer } </style>
   </head>
@@ -14,18 +16,23 @@
     <li class= "nameLink"><a class="noDecoration" href="/about"><h2 class="nameText">TUSHAR GARG</h2></a></li>
     <li class= "links"><a class="noDecoration" href="/"><h3 class="linkText">Portfolio</h3></a></li>
     </ul>
+    <div class="imageGallery1">
     <table style="width:100%">
       <tr>
         <td>
-          <img class = "horizontal_photo" src="portfolio/IMG_2490_edited.jpg"></img>
+           <a href="portfolio/IMG_2490_edited.jpg"><img class = "horizontal_photo" src="portfolio/IMG_2490_edited.jpg"></img></a>
         </td>
         <td>
-          <img class = "horizontal_photo" src="portfolio/IMG_8424_edited.jpg"></img>
+           <a href="portfolio/IMG_8424_edited.jpg"><img class = "horizontal_photo" src="portfolio/IMG_8424_edited.jpg"></img></a>
         </td>
         <td>
-          <img class = "horizontal_photo" src="portfolio/IMG_1192_edited.jpg"></img>
+           <a href="portfolio/IMG_1192_edited.jpg"><img class = "horizontal_photo" src="portfolio/IMG_1192_edited.jpg"></img></a>
         <td>
       </tr>
     </table>
+  </div>
+  <script>
+      $('.imageGallery1 a').simpleLightbox();
+  </script>
   </body>
 </html>
