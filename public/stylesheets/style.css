@@ -31,16 +31,22 @@ a:hover {
 }
 
 tr, td, img {
-	margin: 10px;
+	margin: 1px;
   padding: 0px; 
 }
 
+.portrait {
+  margin: 10px;
+  padding: 0px;
+}
+
 .horizontal_photo {
-	width: 95%;
+	width: 99.5%;
 }
 
 .portrait_photo {
-  height: 5.2%;
+  height: 10.9%;
+  width: 99.5%;
 }
 
 .about {
