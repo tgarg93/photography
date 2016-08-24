@@ -4,7 +4,7 @@
   letter-spacing:10px;
   position: relative;
   top: 15px;
-  left: 20px;
+  left: -10px;
 }
 
 .linkText {
@@ -12,7 +12,7 @@
   color: #808080;
   position: relative;
   top: 20px;
-  right: 20px;
+  right: -10px;
 }
 
 table {
@@ -45,7 +45,7 @@ tr, td, img {
 }
 
 .portrait_photo {
-  height: 10.9%;
+  height: 10.95%;
   width: 99.5%;
 }
 
@@ -53,7 +53,7 @@ tr, td, img {
   width: 33%;
   position: relative;
   top: 30px;
-  left: 35px;
+  left: 10px;
   font-style: italic;
 }
 
