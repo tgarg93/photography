@@ -1,6 +1,6 @@
 .nameText {
   font: 28px "Lucida Grande", Helvetica, Arial, sans-serif;
-  color: #808080;
+  color: black;
   letter-spacing:10px;
   position: relative;
   top: 15px;
@@ -9,7 +9,7 @@
 
 .linkText {
   font: 24px "Lucida Grande", Helvetica, Arial, sans-serif;
-  color: #808080;
+  color: black;
   position: relative;
   top: 20px;
   right: -10px;
@@ -41,12 +41,15 @@ tr, td, img {
 }
 
 .horizontal_photo {
-	width: 99.5%;
+	width: 432px;
+  height: 288px;
 }
 
 .portrait_photo {
-  height: 10.95%;
-  width: 99.5%;
+  width: 432px;
+  height: 578px;
+
+  
 }
 
 .about {
